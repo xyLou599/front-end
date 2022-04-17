@@ -49,31 +49,3 @@ class Protocol{
 }
 
 module.exports = Protocol;
-
-
-
-
-
-
-/* 
-
-let header = [];
-
-let identifier      = new Buffer(2);
-let sequence_number = new Buffer(2);
-let data            = new Buffer(4);
-
-identifier.writeUInt16LE(process.pid, 0);
-sequence_number.writeUInt16LE(0x0, 0);
-data.writeUInt32LE(0x0, 0);
-
-header.push(identifier);
-header.push(sequence_number);
-header.push(data);
-
-let buf = new Buffer(2);
-let int = checksum(header);
-buf.writeUInt16LE(int);
-
-header[2] = buf;
-let headerConcat = new Buffer.concat(header); */
