@@ -1,0 +1,86 @@
+@media screen and (max-width: 966px) {
+    .base-bar .bartag {
+        display: none;
+    }
+    .header {
+        align-items: center;
+        background-image: url(https://lf3-static.bytednsdoc.com/obj/eden-cn/aphqeh7uhohpquloj/modern-js/banner-mobile-bg.png);
+        padding: 2rem;
+        background-origin: border-box;
+        background-position: center bottom;
+        background-size: cover;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        height: 691px;
+        justify-content: flex-start;
+        overflow: hidden;
+        position: relative;
+        background-color: #00b3ff;
+        color: white;
+    }
+    .modernjs-logo {
+        width: 70vw;
+    }
+    .modernjs-title {
+        font-size: 8vw;
+    }
+    .modernjs-buttons {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        width: 65%;
+    }
+    .modernjs-run {
+        width: 100%;
+    }
+    .modernjs-run img {
+        margin-left: 8px;
+        height: auto;
+    }
+    .modernjs-learn {
+        margin-left: 0;
+        margin-top: 42px;
+        width: 100%;
+    }
+    .nav-bar .toggle {
+        display: inherit;
+    }
+    
+    .news {
+        padding: 70px 21.5px 0;
+    }
+    .news-wrap {
+        background-size: 51.6vw 4.51vw;
+    }
+    .title {
+        font-size: 4.96vw;
+        padding-top: 13.5px;
+    }
+    .icon {
+        display: none;
+    }
+    .news-list {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .news-item {
+        flex: none;
+        height: 70px;
+        margin: 0 0 12px;
+        padding: 0 31px;
+        width: 100%;
+        max-width: none;
+    }
+    .news_icon {
+        height: 20px;
+        width: 20px;
+    }
+    .news-item span {
+        color: #fff;
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+}
