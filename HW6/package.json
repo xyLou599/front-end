@@ -1,0 +1,31 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.10.0",
+    "bootstrap": "^5.0.2",
+    "electron-debug": "^1.5.0",
+    "electron-devtools-installer": "2.2.4",
+    "fs": "^0.0.1-security",
+    "naive-ui": "^2.14.0",
+    "sass": "^1.35.1",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.10"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.0.16",
+    "@types/vue": "^2.0.0",
+    "@types/vue-router": "^2.0.0",
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "sass-loader": "^12.1.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.8",
+    "vue-tsc": "^0.0.24"
+  },
+  "license": "ISC"
+}
