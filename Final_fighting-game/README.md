@@ -1,7 +1,5 @@
 # Fighting Game
 
-Link: [final-fighter.vercel.app](https://final-fighter.vercel.app)
-
 React.js + Canvas + Tailwind CSS<br>
 
 Reference: tutorial by Chris Course on Youbute<br>
